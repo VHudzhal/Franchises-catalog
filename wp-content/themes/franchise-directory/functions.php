@@ -202,6 +202,73 @@ function my_single_template($single) {
     }
     return $single;
 }
+function ro_resources_custom_post_type() {
+    $labels = array(
+        'name'                => __( 'Компании' ),
+        'singular_name'       => __( 'Компания'),
+        'menu_name'           => __( 'Компания'),
+        'parent_item_colon'   => __( 'Parent Resource'),
+        'all_items'           => __( 'Все компании'),
+        'view_item'           => __( 'Просмотреть компанию'),
+        'add_new_item'        => __( 'Добавить новую компанию'),
+        'add_new'             => __( 'Добавить новое'),
+        'edit_item'           => __( 'Редактировать компнаию'),
+        'update_item'         => __( 'Обновить компнаию'),
+        'search_items'        => __( 'Поиск компании'),
+        'not_found'           => __( 'Компанию не найдено'),
+        'not_found_in_trash'  => __( 'Not found in Trash')
+    );
+    $args = array(
+        'label'               => __( 'company'),
+        'description'         => __( 'Best Resources'),
+        'labels'              => $labels,
+        'supports'            => array( 'title', 'editor', 'excerpt', 'author', 'thumbnail', 'revisions', 'custom-fields'),
+        'public'              => true,
+        'hierarchical'        => false,
+        'show_ui'             => true,
+        'show_in_menu'        => true,
+        'show_in_nav_menus'   => true,
+        'show_in_admin_bar'   => true,
+        'has_archive'         => false,
+        'can_export'          => true,
+        'exclude_from_search' => false,
+        'yarpp_support'       => true,
+        'publicly_queryable'  => true,
+        'capability_type'     => 'page'
+    );
+    register_post_type( 'company', $args );
+}
+add_action( 'init', 'ro_resources_custom_post_type', 0 );
+
+add_action( 'init', 'ro_create_resources_custom_taxonomy', 0 );
+
+
+//create a custom taxonomy name it "type" for your posts
+function ro_create_resources_custom_taxonomy() {
+
+    $labels = array(
+        'name' => _x( 'Категории компаний', 'taxonomy general name' ),
+        'singular_name' => _x( 'Категории компаний', 'taxonomy singular name' ),
+        'search_items' =>  __( 'Search Types' ),
+        'all_items' => __( 'All Types' ),
+        'parent_item' => __( 'Parent Type' ),
+        'parent_item_colon' => __( 'Parent Type:' ),
+        'edit_item' => __( 'Edit Type' ),
+        'update_item' => __( 'Update Type' ),
+        'add_new_item' => __( 'Add New Type' ),
+        'new_item_name' => __( 'New Type Name' ),
+        'menu_name' => __( 'Категории' ),
+    );
+
+    register_taxonomy('comp_categories',array('company'), array(
+        'hierarchical' => true,
+        'labels' => $labels,
+        'show_ui' => true,
+        'show_admin_column' => true,
+        'query_var' => true,
+        'rewrite' => array( 'slug' => 'comp_categories' ),
+    ));
+}
 
 function sp_scripts() {
     wp_enqueue_style('bootstrap', get_template_directory_uri().'/css/bootstrap.css', '','4.3.1');

@@ -1,0 +1,260 @@
+# Translation of Plugins - WooCommerce Shortcodes - Stable (latest release) in Russian
+# This file is distributed under the same license as the Plugins - WooCommerce Shortcodes - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-06-01 00:28:25+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - WooCommerce Shortcodes - Stable (latest release)\n"
+
+#: includes/wc-shortcodes-editor-i18n.php:47
+msgid "Default"
+msgstr "По умолчанию"
+
+#: includes/wc-shortcodes-editor-i18n.php:49
+msgid "Date"
+msgstr "Дата"
+
+#: includes/wc-shortcodes-editor-i18n.php:52
+msgid "Rating"
+msgstr "Рейтинг"
+
+#: includes/wc-shortcodes-editor-i18n.php:36
+msgid "Name"
+msgstr "Имя"
+
+#: includes/wc-shortcodes-editor-i18n.php:10
+msgid "List"
+msgstr "Список"
+
+#: includes/wc-shortcodes-editor-i18n.php:50
+msgid "Price"
+msgstr "Цена"
+
+#: includes/wc-shortcodes-editor-i18n.php:8 woocommerce-shortcodes.php:99
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: includes/wc-shortcodes-editor-i18n.php:9
+msgid "Product"
+msgstr "Товар"
+
+#: includes/wc-shortcodes-editor-i18n.php:11
+msgid "Price/cart button"
+msgstr "Кнопка Цена/корзина"
+
+#: includes/wc-shortcodes-editor-i18n.php:12
+msgid "Add to cart URL"
+msgstr "URL Добавить в корзину"
+
+#: includes/wc-shortcodes-editor-i18n.php:13
+msgid "By SKU/ID"
+msgstr "По артикулу/ID"
+
+#: includes/wc-shortcodes-editor-i18n.php:14
+msgid "Products by SKU/ID"
+msgstr "Товары по артикулу/ID"
+
+#: includes/wc-shortcodes-editor-i18n.php:15
+msgid "Product categories"
+msgstr "Категории товара"
+
+#: includes/wc-shortcodes-editor-i18n.php:16
+msgid "Products by category slug"
+msgstr "Товары по категории"
+
+#: includes/wc-shortcodes-editor-i18n.php:17
+msgid "Products by attributes"
+msgstr "Товары по атрибутам"
+
+#: includes/wc-shortcodes-editor-i18n.php:18
+msgid "Recent products"
+msgstr "Последние товары"
+
+#: includes/wc-shortcodes-editor-i18n.php:19
+msgid "Featured products"
+msgstr "Избранные товары"
+
+#: includes/wc-shortcodes-editor-i18n.php:20
+msgid "Sale products"
+msgstr "Продажа товаров"
+
+#: includes/wc-shortcodes-editor-i18n.php:21
+msgid "Best selling products"
+msgstr "Самые продаваемые товары"
+
+#: includes/wc-shortcodes-editor-i18n.php:22
+msgid "Top rated products"
+msgstr "Товары с высоким рейтингом"
+
+#: includes/wc-shortcodes-editor-i18n.php:23
+msgid "Shop Messages"
+msgstr "Сообщения магазина"
+
+#: includes/wc-shortcodes-editor-i18n.php:24
+msgid "Order tracking"
+msgstr "Отслеживание заказа"
+
+#: includes/wc-shortcodes-editor-i18n.php:27
+msgid "ID"
+msgstr "ID"
+
+#: includes/wc-shortcodes-editor-i18n.php:28
+msgid "IDs"
+msgstr "ID"
+
+#: includes/wc-shortcodes-editor-i18n.php:29
+msgid "SKU"
+msgstr "Артикул"
+
+#: includes/wc-shortcodes-editor-i18n.php:30
+msgid "SKUs"
+msgstr "Артикулы"
+
+#: includes/wc-shortcodes-editor-i18n.php:31
+msgid "Inline Style"
+msgstr "Встроенный стиль"
+
+#: includes/wc-shortcodes-editor-i18n.php:32
+msgid "Show Price"
+msgstr "Отображать цену"
+
+#: includes/wc-shortcodes-editor-i18n.php:33
+msgid "Separate the values with comma"
+msgstr "Укажите значения через запятую"
+
+#: includes/wc-shortcodes-editor-i18n.php:34
+msgid "Number"
+msgstr "Количество"
+
+#: includes/wc-shortcodes-editor-i18n.php:35
+msgid "Order By"
+msgstr "Сортировать по"
+
+#: includes/wc-shortcodes-editor-i18n.php:37
+msgid "Count"
+msgstr "Количество"
+
+#: includes/wc-shortcodes-editor-i18n.php:38
+msgid "Slug"
+msgstr "Ярлык"
+
+#: includes/wc-shortcodes-editor-i18n.php:39
+msgid "None"
+msgstr "Ничего"
+
+#: includes/wc-shortcodes-editor-i18n.php:40
+msgid "Order"
+msgstr "Сортировка"
+
+#: includes/wc-shortcodes-editor-i18n.php:41
+msgid "ASC"
+msgstr "По возрастанию"
+
+#: includes/wc-shortcodes-editor-i18n.php:42
+msgid "DESC"
+msgstr "По убыванию"
+
+#: includes/wc-shortcodes-editor-i18n.php:43
+msgid "Columns"
+msgstr "Колонки"
+
+#: includes/wc-shortcodes-editor-i18n.php:44
+msgid "Hide Empty"
+msgstr "Спрятать пустые"
+
+#: includes/wc-shortcodes-editor-i18n.php:45
+msgid "Parent ID"
+msgstr "Родительский  id"
+
+#: includes/wc-shortcodes-editor-i18n.php:46
+msgid "Category Slug"
+msgstr "Ярлык категории"
+
+#: includes/wc-shortcodes-editor-i18n.php:48
+msgid "Random"
+msgstr "Случайно"
+
+#: includes/wc-shortcodes-editor-i18n.php:51
+msgid "Popularity"
+msgstr "Популярность"
+
+#: includes/wc-shortcodes-editor-i18n.php:53
+msgid "Title"
+msgstr "Заголовок"
+
+#: includes/wc-shortcodes-editor-i18n.php:54
+msgid "Operator"
+msgstr "Оператор"
+
+#: includes/wc-shortcodes-editor-i18n.php:55
+msgid "IN"
+msgstr "В"
+
+#: includes/wc-shortcodes-editor-i18n.php:56
+msgid "NOT IN"
+msgstr "НЕ В"
+
+#: includes/wc-shortcodes-editor-i18n.php:57
+msgid "AND"
+msgstr "И"
+
+#: includes/wc-shortcodes-editor-i18n.php:58
+msgid "Attribute slug"
+msgstr "Атрибут ярлыка"
+
+#: includes/wc-shortcodes-editor-i18n.php:59
+msgid "Terms slug"
+msgstr "Условия"
+
+#: includes/wc-shortcodes-editor-i18n.php:60
+msgid "Categories Per Page"
+msgstr "Категорий на странице"
+
+#: includes/wc-shortcodes-editor-i18n.php:61
+msgid "Products Per Page"
+msgstr "Количество товаров на странице"
+
+#: includes/wc-shortcodes-editor-i18n.php:62
+msgid "You need to use an ID or SKU!"
+msgstr "Вы должны использовать ID или Артикул!"
+
+#: includes/wc-shortcodes-editor-i18n.php:63
+msgid "You need to use an IDs or SKUs!"
+msgstr "Вы должны использовать ID или Артикулы!"
+
+#: includes/wc-shortcodes-editor-i18n.php:64
+msgid "You need enter with a category slug!"
+msgstr "Вы должны указать ярлык категории!"
+
+#: includes/wc-shortcodes-editor-i18n.php:65
+msgid "You need enter with an attribute and terms slugs!"
+msgstr "Вы должны указать атрибут и ярлыки условий!"
+
+#. Plugin Name of the plugin/theme
+msgid "WooCommerce Shortcodes"
+msgstr "Шорткоды WooCommerce"
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.woothemes.com/"
+msgstr "https://www.woothemes.com/"
+
+#. Description of the plugin/theme
+msgid "WooCommerce Shortcodes."
+msgstr "Шорткоды WooCommerce"
+
+#. Author of the plugin/theme
+msgid "WooThemes, Claudio Sanches"
+msgstr "WooThemes, Claudio Sanches"
+
+#. Author URI of the plugin/theme
+msgid "http://woothemes.com"
+msgstr "http://woothemes.com"
+
+#: woocommerce-shortcodes.php:99
+msgid "WooCommerce Shortcodes depends on the last version of %s to work!"
+msgstr "Шорткоды WooCommerce зависят от последней версии %s, чтобы правильно работать!"
